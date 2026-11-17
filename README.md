@@ -1,85 +1,56 @@
-# README – Statistics: Descriptive Statistics and Measures of Central Tendency
+Stars Visualizing Line Plot
+📊 Project Overview
 
-## 1. Introduction
+Stars Visualizing Line Plot is a data visualization project that represents star-related data using an interactive line plot. It helps users understand patterns, trends, and changes in star data through graphical representation.
 
-Descriptive statistics is a branch of statistics used to collect, organize, summarize, and present data in a meaningful way. It helps us understand the main features of a dataset.
+✨ Features
+Visual representation of star data using a line plot.
+Easy-to-understand graphical interface.
+Displays trends and patterns in the dataset.
+Simple and user-friendly visualization.
+Supports data analysis through charts.
+🛠️ Technologies Used
+HTML
+CSS
+JavaScript
+Data Visualization Library
+📁 Project Structure
+text
+stars-visulzing-linePlot/
+│
+├── index.html
+├── style.css
+├── script.js
+├── data/
+│   └── stars.csv
+└── README.md
 
-## 2. Objectives
+🚀 Getting Started
+1. Clone the Repository
+bash
+git clone <repository-url>
 
-- To understand descriptive statistics.
-- To organize and summarize data.
-- To calculate measures of central tendency.
-- To interpret statistical results.
-- To understand the characteristics of a dataset.
+2. Navigate to the Project Directory
+bash
+cd stars-visulzing-linePlot
 
-## 3. Measures of Central Tendency
+3. Run the Project
 
-Measures of central tendency are statistical values that represent the center or typical value of a dataset.
+Open index.html in your web browser.
 
-There are three main measures:
+📈 How It Works
+Load the star-related dataset.
+Process the data for visualization.
+Generate a line plot using the selected data.
+Analyze the trends and patterns displayed in the chart.
+🎯 Purpose
 
-### A. Mean (Average)
+The main purpose of this project is to visualize star-related information through line plots and make data interpretation easier.
 
-The mean is the sum of all observations divided by the total number of observations.
+🤝 Contributing
 
-Formula:
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
 
-$$
-Mean = \frac{\sum X}{N}
-$$
+📄 License
 
-Example: 10, 20, 30, 40, 50
-
-$$
-Mean = \frac{10+20+30+40+50}{5}=30
-$$
-
-### B. Median
-
-The median is the middle value of a dataset when the values are arranged in ascending or descending order.
-
-Example: 10, 20, 30, 40, 50
-
-Median = 30
-
-For an even number of observations:
-
-$$
-Median = \frac{\text{Two middle values' sum}}{2}
-$$
-
-### C. Mode
-
-The mode is the value that occurs most frequently in a dataset.
-
-Example: 10, 20, 20, 30, 40
-
-Mode = 20
-
-## 4. Advantages
-
-- Easy to understand and calculate.
-- Helps summarize large datasets.
-- Useful for data analysis and comparison.
-- Helps identify the central value of data.
-- Supports decision-making.
-
-## 5. Applications
-
-- Education and examination results.
-- Business and marketing analysis.
-- Healthcare and research.
-- Economics and finance.
-- Data science and machine learning.
-
-## 6. Conclusion
-
-Descriptive statistics helps summarize and understand data. Mean, median, and mode are important measures of central tendency that provide a simple representation of a dataset.
-
-## 7. Tools Used
-
-- Python
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
+This project is open-source and available for educational purposes.
